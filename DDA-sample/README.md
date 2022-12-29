@@ -6,7 +6,7 @@ Dodecylammonium or DDA is a long chain ammonium cation which is added to the lig
   $\ n_c (t=0) = \Sigma_i n_{TP}^{i} (0) \dot (1-e^{-a_i \tau_0 \frac{I_{PL}}{k}})+ \frac{I_{PL}}{k}$
   </p>
 
-in which $\ n_{TP}^i (0)$ is the 𝑖th type of trap density when time $\ (t)$ amounts to zero, $\ a_i $ is the trapping cross section times the carrier velocity, $\ \tau_0 $ is the lifetime of the PL decay, and $\ k$ is a constant.
+in which $\ n_{TP}^i (0)$ is the $\ i$-th type of trap density when time $\ t$ amounts to zero, $\ a_i$ is the trapping cross section times the carrier velocity, $\ \tau_0$ is the lifetime of the PL decay, and $\ k$ is a constant.
 
 Here, we mostly do an educated guess wok to fit the equation above to the plot of Time interated Photoluminescence Intensity (Time PL) vs Carrier density to obtain the initial traps density value.
 
