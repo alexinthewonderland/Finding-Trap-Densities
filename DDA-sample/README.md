@@ -11,7 +11,7 @@ in which $\ n_{TP}^i (0)$ is the $\ i$-th type of trap density when time $\ t$ a
 Here, we mostly do an educated guess wok to fit the equation above to the plot of Time interated Photoluminescence Intensity (Time PL) vs Carrier density to obtain the initial traps density value.
 
 # How to use the code
-1. By running the second block of code on [DDA Sample.ipynb](https://github.com/alexinthewonderland/Finding-Trap-Densities/blob/main/DDA-sample/DDA%20Sample.ipynb), you firstly insert the csv file name that contains the Time PL vs Carrier density plot.
+1. By running the second block of code on [DDA Sample.ipynb](https://github.com/alexinthewonderland/Finding-Trap-Densities/blob/main/DDA-sample/DDA%20Sample.ipynb), you insert the csv file name that contains the Time PL vs Carrier density plot, in this case, it is ```DDA_sample.csv```.
 2. Running it would give you the predicted value of the $\ b = a \bullet \tau_0$ and $\ k$ using the ```scipy.optimize.curve_fit``` function but only with a single trap term of the fitted function.
 3. Having the value of the constants $\ b$ and $\ k$, we would now add another trap term to obtain a much better fitted result. This is where the third block of code comes to play.
 4. Do the same as step 1 and step 2, however, the fitted function here now uses the value of $\ k$ that we have obtained before while using two trap density summation.
