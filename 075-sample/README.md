@@ -1,6 +1,6 @@
 # 075 Sample 
 
-The 075 represent the ligand length of the perovskite material . In this repository sub-folder, we have the [075_sample.csv](https://github.com/alexinthewonderland/Finding-Trap-Densities/blob/main/075-sample/075_sample.csv) and [075_newsample.csv](https://github.com/alexinthewonderland/Finding-Trap-Densities/blob/main/075-sample/075_newsample.csv) file that contains the measurement using a Time Resolved Photoluminescence measurement result. From this measurement, we use the following equation
+The 075 represent the 0.75 ligand length of the perovskite material . In this repository sub-folder, we have the [075_sample.csv](https://github.com/alexinthewonderland/Finding-Trap-Densities/blob/main/075-sample/075_sample.csv) and [075_newsample.csv](https://github.com/alexinthewonderland/Finding-Trap-Densities/blob/main/075-sample/075_newsample.csv) file that contains the measurement using a Time Resolved Photoluminescence measurement result. From this measurement, we use the following equation
 
 <p align ="center">
   $\ n_c (t=0) = \Sigma_i n_{TP}^{i} (0) \dot (1-e^{-a_i \tau_0 \frac{I_{PL}}{k}})+ \frac{I_{PL}}{k}$
